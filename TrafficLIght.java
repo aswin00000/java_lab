@@ -64,6 +64,7 @@ g.fillOval(50,170,50,50);
 class Test{
 public static void main(String args[]){
 JFrame f1 = new JFrame();
+f1.setDefaultCloseOperation(f1.EXIT_ON_CLOSE);
 f1.setVisible(true);
 f1.setSize(600,480);
 
